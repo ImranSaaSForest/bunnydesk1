@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.border-b-2{
+    border-bottom-width: 2px;
+}
+
+.bg-white:focus {
+    outline: none;
+}
+
+button[style*="--c-600:var(--primary-600)"]{
+ @apply bg-primary-600 text-white
+
+}
+
+.attachment__caption {
+    display: none;
+    }
+
+
